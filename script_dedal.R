@@ -1,2 +1,5 @@
 #install.packages("rmarkdown")
 library(rmarkdown)
+library(viridis)
+image(volcano, col = viridis(200))
+image(volcano, col = viridis(200, option = "A"))
